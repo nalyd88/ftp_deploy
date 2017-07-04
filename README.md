@@ -16,7 +16,7 @@ ftp_deploy:
     ftp_dir: /blog # or / for root
 ```
 
-# Options
+## Options
 
 You can configure the software to skip certain files/folders by editing the
 `ignore_list` and `skip_list` variables in the main script.
@@ -33,10 +33,10 @@ ignore_list = [".ftpquota", "cgi-bin"]
 skip_list = [".DS_Store", "Icon?"]
 ```
 
-# Requirements
+## Requirements
 
 This project uses the [Highline](https://github.com/JEG2/highline) gem.
 
-# License
+## License
 
 The software is covered under the MIT license.
